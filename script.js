@@ -4,7 +4,7 @@ function sub(){
 	const at = document.getElementById("author").value.trim();
 	const it = document.getElementById("isbn").value.trim();
 	if(!et||!at||!it){
-		alert("entr vlue")
+		alert("entr vlue");
 	}
 	const row = document.createElement("tr")
 		row.innerHTML = `
@@ -20,7 +20,7 @@ function sub(){
 	
 	
 }
-bookList.addEventListener('click',(e){
+booklist.addEventListener('click',(e)=>{
 	if(e.target.classList.contains('delete')){
 		const row = e.target.parentElement.parentElement;
 		booklist.removeChild(row)
