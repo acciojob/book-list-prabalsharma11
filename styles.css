@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+#title,#author,#isbn{
+	display:block;
+	width:50%;
+	margin-top:5px;
+	margin-bottom:10px
+}
+#submit{
+	background-color:blue;
+	color:white;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+th{
+	width:100px;
+	
+}
